@@ -65,4 +65,21 @@ They are re-usable and can be nested inside other components
 Two Types - 
   Stateless Function Components
   Statefull Class Components
+
+Difference between Funcion and class components
+
+functional
+  Simple function 
+  Use func components as much as possible 
+  Absence of 'this' keyword
+  Solution without using state
+  Mainly responsible for the UI
+  Stateless/ Dumb/ Presentational
+
+Class
+  More feature rich
+  Maintain their own private data - state
+  Complex UI logic 
+  Provide lifecycle hooks
+  Stateful/ Smart/ Container
 */
