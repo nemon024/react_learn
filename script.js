@@ -30,4 +30,39 @@ ES6
 JavaScript - 'this' keyword , filter, map and reduce
 ES6 - let & const , arrow function , template literals , default parameters , object literals , rest and spread operators and destructuring assignment.
 
+
+Create-react-app
+There are 2 ways to crate a  react-app
+
+1. npx 
+npx create-react-app <project_name>
+npx is a npm package runner which get install when you install node 
+
+2. npm 
+npm install create-react-app -g
+create-react-app<project_name>
+
+Component Types
+1. Statless Function Component
+javaScript Function 
+ex.
+function Welcome(props){
+return <h1>Hello, {props.name}</h1>};
+
+2.Stateful Class Component
+Class extending Component class
+Render method returning HTML
+ex.
+class Welcome extends React.Component {
+render(){
+  return <h1>Hello, {this.props.name}</h1>;
+  }
+}
+
+Components Summary
+Components describe a part of the user interface
+They are re-usable and can be nested inside other components 
+Two Types - 
+  Stateless Function Components
+  Statefull Class Components
 */
