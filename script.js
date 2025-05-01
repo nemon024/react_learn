@@ -82,4 +82,20 @@ Class
   Complex UI logic 
   Provide lifecycle hooks
   Stateful/ Smart/ Container
+
+Hooks
+  No breaking changes.
+  Completely opt-in & 100% backwards-compatible
+  What even we've learned so far in this series still holds good
+  Component types - Functional components and Class components.
+  Using state, lifecycle methods and 'this' binding.
+
+JSX
+  JavaScript XML (JSX)- Extension to the JavaScript language syntax.
+  Write XML - like code for elements and components.
+  JSX tags have a tag name , attributes , and children.
+  JSX is not a necessity to write React applications.
+  JSX makes your react code simpler and elegant.
+  JSX ultimately transpiles to pure JavaScript which is understood by the browsers. 
+
 */
